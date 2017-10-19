@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 DNA = sys.argv[1]
-startfrag1 = '1'
+startfrag1 = 1
 endfrag1 = DNA.find('GAATTC') + 1
 startfrag2 = DNA.find('GAATTC') + 2
 endfrag2 = len(DNA)

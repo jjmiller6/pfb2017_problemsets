@@ -1,0 +1,6 @@
+import sys
+testDNA = sys.argv[1]
+numberofAs = testDNA.count('A')
+numberofTs = testDNA.count('T')
+countoutput = "This sequence has {} As and {} Ts"
+countoutput.format(numberofAs,numberofTs)
